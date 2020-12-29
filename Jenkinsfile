@@ -3,9 +3,9 @@ pipeline {
     stages {
         stage('build') {
             steps {
-                echo olaa
+                echo 'olaa'
                 sh 'npm --version'
-                echo travei
+                echo 'travei'
             }
         }
     }
