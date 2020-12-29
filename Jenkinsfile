@@ -3,7 +3,9 @@ pipeline {
     stages {
         stage('build') {
             steps {
+                echo olaa
                 sh 'npm --version'
+                echo travei
             }
         }
     }
